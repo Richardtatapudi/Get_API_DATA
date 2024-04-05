@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./TASK1.JS"></script>
+    <style>
+      table,
+      td,
+      th {
+        border: 2px solid blueviolet;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th class="col1"></th>
+        <th class="col1"></th>
+        <th class="col1"></th>
+        <th class="col1"></th>
+        <th class="col1"></th>
+        <th class="col1"></th>
+        <th class="col1"></th>
+        <th class="col1"></th>
+      </tr>
+      <tr>
+        <td class="row1"></td>
+        <td class="row1"></td>
+        <td class="row1"></td>
+        <td class="row1"></td>
+        <td class="row1"></td>
+        <td class="row1"></td>
+        <td class="row1"></td>
+        <td class="row1"></td>
+      </tr>
+      <tr>
+        <td class="row2"></td>
+        <td class="row2"></td>
+        <td class="row2"></td>
+        <td class="row2"></td>
+        <td class="row2"></td>
+        <td class="row2"></td>
+        <td class="row2"></td>
+        <td class="row2"></td>
+      </tr>
+      <tr>
+        <td class="row3"></td>
+        <td class="row3"></td>
+        <td class="row3"></td>
+        <td class="row3"></td>
+        <td class="row3"></td>
+        <td class="row3"></td>
+        <td class="row3"></td>
+        <td class="row3"></td>
+      </tr>
+      <tr>
+        <td class="row4"></td>
+        <td class="row4"></td>
+        <td class="row4"></td>
+        <td class="row4"></td>
+        <td class="row4"></td>
+        <td class="row4"></td>
+        <td class="row4"></td>
+        <td class="row4"></td>
+      </tr>
+      <tr>
+        <td class="row5"></td>
+        <td class="row5"></td>
+        <td class="row5"></td>
+        <td class="row5"></td>
+        <td class="row5"></td>
+        <td class="row5"></td>
+        <td class="row5"></td>
+        <td class="row5"></td>
+      </tr>
+      <tr>
+        <td class="row6"></td>
+        <td class="row6"></td>
+        <td class="row6"></td>
+        <td class="row6"></td>
+        <td class="row6"></td>
+        <td class="row6"></td>
+        <td class="row6"></td>
+        <td class="row6"></td>
+      </tr>
+    </table>
+
+    <script>
+      var a = document.getElementsByClassName("col1")[0];
+      a.innerHTML = "Id";
+
+      var b = document.getElementsByClassName("col1")[1];
+      b.innerHTML = "title"; 
+
+      var c = document.getElementsByClassName("col1")[2];
+      c.innerHTML = "price";
+      var d = document.getElementsByClassName("col1")[3];
+      d.innerHTML = "description";
+      var e = document.getElementsByClassName("col1")[4];
+      e.innerHTML = "category";
+      var f = document.getElementsByClassName("col1")[5];
+      
+      f.innerHTML = "image";
+      var g = document.getElementsByClassName("col1")[6];
+      g.innerHTML = "rate";
+      var g = document.getElementsByClassName("col1")[7];
+      g.innerHTML = "count";
+
+      var a1 = document.getElementsByClassName("row1")[0];
+      a1.innerHTML = B[0].id;
+      var a1 = document.getElementsByClassName("row1")[1];
+      a1.innerHTML = B[0].title;
+      var a1 = document.getElementsByClassName("row1")[2];
+      a1.innerHTML = B[0].price;
+      var a1 = document.getElementsByClassName("row1")[3];
+      a1.innerHTML = B[0].description;
+      var a1 = document.getElementsByClassName("row1")[4];
+      a1.innerHTML = B[0].category;
+      var a1 = document.getElementsByClassName("row1")[5];
+      a1.innerHTML = B[0].image;
+      var img1 = document.createElement("img");
+         img1.setAttribute(
+        "src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg5m0yIhNBu5DClzVz8mN2KTSK8GQ0qGrXYg&s")
+        img1.setAttribute("height", "80");
+      img1.setAttribute("width", "80");
+
+        a1.appendChild(img1);
+      var a1 = document.getElementsByClassName("row1")[6];
+      a1.innerHTML = B[0].rating.rate;
+      var a1 = document.getElementsByClassName("row1")[7];
+      a1.innerHTML = B[0].rating.count;
+
+      var a1 = document.getElementsByClassName("row2")[0];
+      a1.innerHTML = B[1].id;
+      var a1 = document.getElementsByClassName("row2")[1];
+      a1.innerHTML = B[1].title;
+      var a1 = document.getElementsByClassName("row2")[2];
+      a1.innerHTML = B[1].price;
+      var a1 = document.getElementsByClassName("row2")[3];
+      a1.innerHTML = B[1].description;
+      var a1 = document.getElementsByClassName("row2")[4];
+      a1.innerHTML = B[1].category;
+      var a1 = document.getElementsByClassName("row2")[5];
+      a1.innerHTML = B[1].image;
+      var img1 = document.createElement("img");
+         img1.setAttribute(
+        "src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDWpWQYD_bU9JR15JIWkWJ5BPAbP5IwYQyWw&s")
+        img1.setAttribute("height", "80");
+      img1.setAttribute("width", "80");
+
+        a1.appendChild(img1);
+      var a1 = document.getElementsByClassName("row2")[6];
+      a1.innerHTML = B[1].rating.rate;
+      var a1 = document.getElementsByClassName("row2")[7];
+      a1.innerHTML = B[1].rating.count;
+
+      var a1 = document.getElementsByClassName("row3")[0];
+      a1.innerHTML = B[2].id;
+      var a1 = document.getElementsByClassName("row3")[1];
+      a1.innerHTML = B[2].title;
+      var a1 = document.getElementsByClassName("row3")[2];
+      a1.innerHTML = B[2].price;
+      var a1 = document.getElementsByClassName("row3")[3];
+      a1.innerHTML = B[2].description;
+      // var a1 = document.getElementsByClassName("row3")[3];
+      // a1.innerHTML=[2].description;
+      var a1 = document.getElementsByClassName("row3")[4];
+      a1.innerHTML = B[2].category;
+      var a1 = document.getElementsByClassName("row3")[5];
+      
+      var img1 = document.createElement("img");
+         img1.setAttribute(
+        "src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPzu4S1hnnLFqlEmfoTYguKX2sKUW-8BwYTA&s")
+        img1.setAttribute("height", "80");
+      img1.setAttribute("width", "80");
+
+        a1.appendChild(img1);
+      var a1 = document.getElementsByClassName("row3")[6];
+      a1.innerHTML = B[2].rating.rate;
+      var a1 = document.getElementsByClassName("row3")[7];
+      a1.innerHTML = B[2].rating.count;
+
+      var a1 = document.getElementsByClassName("row4")[0];
+      a1.innerHTML = B[3].id;
+      var a1 = document.getElementsByClassName("row4")[1];
+      a1.innerHTML = B[3].title;
+      var a1 = document.getElementsByClassName("row4")[2];
+      a1.innerHTML = B[3].price;
+      var a1 = document.getElementsByClassName("row4")[3];
+      a1.innerHTML = B[3].description;
+      // var a1 = document.getElementsByClassName("row3")[3];
+      // a1.innerHTML=[3].description;
+      var a1 = document.getElementsByClassName("row4")[4];
+      a1.innerHTML = B[3].category;
+      var a1 = document.getElementsByClassName("row4")[5];
+      a1.innerHTML = B[3].image;
+      var img1 = document.createElement("img");
+         img1.setAttribute(
+        "src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc32xRMn9yVx1i_TAEKqoYdsAJI9XqjO9l1w&s")
+        img1.setAttribute("height", "80");
+      img1.setAttribute("width", "80");
+
+        a1.appendChild(img1);
+      var a1 = document.getElementsByClassName("row4")[6];
+      a1.innerHTML = B[3].rating.rate;
+      var a1 = document.getElementsByClassName("row4")[7];
+      a1.innerHTML = B[3].rating.count;
+
+      var a1 = document.getElementsByClassName("row5")[0];
+      a1.innerHTML = B[4].id;
+      var a1 = document.getElementsByClassName("row5")[1];
+      a1.innerHTML = B[4].title;
+      var a1 = document.getElementsByClassName("row5")[2];
+      a1.innerHTML = B[4].price;
+      var a1 = document.getElementsByClassName("row5")[3];
+      a1.innerHTML = B[4].description;
+      // var a1 = document.getElementsByClassName("row5")[3]
+      // a1.innerHTML=[4].description;
+      var a1 = document.getElementsByClassName("row5")[4];
+      a1.innerHTML = B[4].category;
+      var a1 = document.getElementsByClassName("row5")[5];
+      a1.innerHTML = B[4].image;
+      var img1 = document.createElement("img");
+         img1.setAttribute(
+        "src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5mXUBQ_GdiaIpkARfWp3YC4w9D4epEqUIqg&s")
+        img1.setAttribute("height", "80");
+      img1.setAttribute("width", "80");
+
+        a1.appendChild(img1);
+      
+      var a1 = document.getElementsByClassName("row5")[6];
+      a1.innerHTML = B[4].rating.rate;
+      var a1 = document.getElementsByClassName("row5")[7];
+      a1.innerHTML = B[4].rating.count;
+
+      var a1 = document.getElementsByClassName("row6")[0];
+      a1.innerHTML = B[5].id;
+      var a1 = document.getElementsByClassName("row6")[1];
+      a1.innerHTML = B[5].title;
+      var a1 = document.getElementsByClassName("row6")[2];
+      a1.innerHTML = B[5].price;
+      var a1 = document.getElementsByClassName("row6")[3];
+      a1.innerHTML = B[5].description;
+      // var a1 = document.getElementsByClassName("row5")[3]
+      // a1.innerHTML=[4].description;
+      var a1 = document.getElementsByClassName("row6")[4];
+      a1.innerHTML = B[5].category;
+      var a1 = document.getElementsByClassName("row6")[5];
+      a1.innerHTML = B[5].image;
+      var img1 = document.createElement("img");
+         img1.setAttribute(
+        "src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWLhwpWAEXijXt2_7-39aH_a2_FXg_ovsF8A&s")
+        img1.setAttribute("height", "80");
+      img1.setAttribute("width", "80");
+
+        a1.appendChild(img1);
+      
+      var a1 = document.getElementsByClassName("row6")[6];
+      a1.innerHTML = B[5].rating.rate;
+      var a1 = document.getElementsByClassName("row6")[7];
+      a1.innerHTML = B[5].rating.count;
+    </script>
+  </body>
+</html>
